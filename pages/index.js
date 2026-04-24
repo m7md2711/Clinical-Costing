@@ -333,7 +333,7 @@ export default function Home() {
                 </div>
                 <div className="form-group">
                   <label htmlFor="license">Facility License Number</label>
-                  <input id="license" name="license" type="text" placeholder="e.g. DOH-12345678" value={form.license} onChange={handleChange} />
+                  <input id="license" name="license" type="text" placeholder="e.g. MF-123456" value={form.license} onChange={handleChange} />
                 </div>
                 <div className="form-group">
                   <label htmlFor="claims">Estimated Monthly Claims</label>
