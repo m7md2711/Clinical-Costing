@@ -440,7 +440,7 @@ export default function Home() {
           )}
 
           <div style={{display:'flex', justifyContent:'center', gap:'2rem', flexWrap:'wrap', marginTop:'2.5rem'}}>
-            {[['📍','Abu Dhabi, UAE'],['📞','WhatsApp & Call Available'],['🕐','Sun–Thu, 8am–6pm'],['💬','Free Initial Consultation']].map(([icon, label]) => (
+            {[['📍','Abu Dhabi, UAE'],['📞',<a href="https://wa.me/971502392790" target="_blank" style={{color:'var(--teal)'}}>WhatsApp: +971 50 239 2790</a>],['💬','Free Initial Consultation']].map(([icon, label]) => (
               <div key={label} style={{display:'flex', alignItems:'center', gap:'0.6rem', fontSize:'0.87rem', color:'var(--muted)'}}>
                 <span>{icon}</span><span>{label}</span>
               </div>
